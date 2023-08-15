@@ -8,6 +8,12 @@ $("#startPuzzle").click(function(){
 });
 
 $("#findSpace").click(function(){
+	for (i = 0; i < myCollection.length; i++) {
+		if(myCollection[i].innerHTML=="-"){
+			space=i+1;
+			myCollection[i].style.backgroundColor = "red";
+		}
+	}
 	alert("space found at... "+space);
 });
 
