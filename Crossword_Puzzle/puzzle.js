@@ -4,7 +4,7 @@ var myCollection = document.getElementsByTagName("p");
 var i;
 var space;
 $("#startPuzzle").click(function(){
-	alert("Welcome, Enter the puzzle before playing");
+	alert("Welcome, Find the space from the table and move to one end of the table<br>you can also change the input and make the game easy by entering the puzzle before playing");
 });
 
 $("#findSpace").click(function(){
