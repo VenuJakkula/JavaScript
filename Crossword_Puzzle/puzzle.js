@@ -3,7 +3,9 @@ $(document).ready(function(){
 var myCollection = document.getElementsByTagName("p");
 var i;
 var space;
-alert("Welcome, Enter the puzzle before playing");
+$("#startPuzzle").click(function(){
+	alert("Welcome, Enter the puzzle before playing");
+});
 
 $("#findSpace").click(function(){
 	alert("space found at... "+space);
